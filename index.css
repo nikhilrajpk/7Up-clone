@@ -1,0 +1,243 @@
+
+
+.main-sec{
+    width: 100%;
+    height: 60rem;
+    background-color: #fff;
+    margin-top: 11.4rem;
+    background-image: url(7up-image/beUptimistic-lap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    padding-top: 8rem;
+
+}
+/* .main-sec-img-mob{
+    display: none;
+} */
+.main-sec-in{
+    width: fit-content;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    color: #fff;
+}
+.main-sec-in h1{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5.5vw;
+    font-weight: 800;
+    line-height: 74px;
+    margin-bottom: 32px;
+}
+.main-sec-in button a{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* section 1 start */
+
+.section-1{
+    width: 100%;
+    height: 60rem;
+    background-color: plum;
+    background-image: url(7up-image/recipes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.section-1-in{
+    width: 100%;
+    height: 20rem;
+    margin-top: 22rem;
+}
+.section-1-in-elipse{
+    width: 45%;
+    height: 20rem;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.section-1-in-elipse h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+.section-1-in-elipse p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+
+}
+.section-1-in-elipse button{
+    width: fit-content;
+    height: 4rem;
+    border: 2px solid #fff;
+    border-radius: 3rem;
+}
+.section-1-in-elipse button a{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 3rem;
+}
+
+/* section 2 start */
+
+
+
+.section-2{
+    width: 100%;
+    height: 60rem;
+    background-color: plum;
+    background-image: url(7up-image/storeLocator-lap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.section-2-in{
+    width: 100%;
+    height: 20rem;
+    margin-top: 22rem;
+}
+.section-2-in-elipse{
+    width: 45%;
+    height: 20rem;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.section-2-in-elipse h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+.section-2-in-elipse p{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+}
+.section-2-in-elipse button{
+    width: fit-content;
+    height: 4rem;
+    border: 2px solid #fff;
+    border-radius: 3rem;
+}
+.section-2-in-elipse button a{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem 3rem;
+}
+
+/* media query  */
+
+@media screen and (max-width: 1025px) {
+    .main-sec{
+        height: 50rem;
+    }
+    .section-1{
+        height: 50rem;
+    }
+    .section-2{
+        height: 50rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-sec{
+        height: 110rem;
+        margin-top: 7.8rem;
+        background-image: url(7up-image/beUptimistic-mobile.png);
+        padding-left: 18%;
+        padding-top: 80rem;
+    
+    }
+    .main-sec-in{
+        align-items: center;
+    }
+    .main-sec-in h1{
+        font-size: 12.5vw;
+        font-weight: 800;
+        text-align: center;
+    }
+    .main-sec-in button a{
+        font-size: 2.3rem;
+    }
+
+
+    .section-1{
+        width: 100%;
+        height: 75rem;
+        background-image: url(7up-image/recipes-mobile.jpg);
+    }
+    .section-1-in-elipse{
+        width: 90%;
+    }
+    .section-1-in-elipse button{
+        padding: 0 2rem;
+    }
+    
+
+    
+.section-2{
+    height: 70rem;
+    background-image: url(7up-image/storeLocator-mobile.jpg);
+}
+.section-2-in-elipse{
+    width: 90%;
+}
+.section-2-in-elipse button{
+    padding: 0 2rem;
+}
+
+
+
+}
+
+@media screen and (max-width:426px) {
+    .main-sec{
+        background-image: url(7up-image/beUptimistic-mobile.png);
+        
+    }
+    .section-1{
+        height: 40rem;
+        position: relative;
+    }
+    .section-1-in{
+        position: absolute;
+        top: -11rem;
+    }
+    .section-2{
+        height: 40rem;
+        position: relative;
+    }
+    .section-2-in{
+        position: absolute;
+        top: -9rem;
+    }
+}
